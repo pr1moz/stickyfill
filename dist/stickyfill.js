@@ -29,6 +29,9 @@
     }
 
     //test for native support
+    // This is unfinished css spec and is inconsistent
+    // across browsers. Removing for now
+    /*
     var prefixes = ['', '-webkit-', '-moz-', '-ms-'],
         block = document.createElement('div');
 
@@ -40,7 +43,7 @@
         if (block.style.position != '') {
             seppuku();
         }
-    }
+    } */
 
     updateScrollPos();
 
